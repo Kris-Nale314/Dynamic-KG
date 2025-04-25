@@ -359,25 +359,7 @@ class FMPDataCollector:
         
         return False
     
-    def collect_sector_pe_ratios(self):
-        """Collect sector P/E ratios."""
-        logger.info("Collecting sector P/E ratios")
-        
-        # Get sector P/E ratios
-        data = self.api_request("sector_price_earning_ratio", version="v4")
-        
-        if data:
-            # Convert to DataFrame
-            df = pd.DataFrame(data)
-            
-            # Save as parquet file
-            os.makedirs(Config.MARKET_DIR, exist_ok=True)
-            df.to_parquet(Config.MARKET_DIR / "sector_pe.parquet", engine='pyarrow')
-            
-            logger.info("Sector P/E ratios saved")
-            return True
-        
-        return False
+    
     
     def collect_material_events(self):
         """Collect 8-K filings (material events) across companies."""

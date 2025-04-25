@@ -1,0 +1,32 @@
+{
+  "companies": [
+    "DELL",
+    "NVDA",
+    "TSLA"
+  ],
+  "company_count": 3,
+  "filing_count": 15,
+  "news_count": 250,
+  "news_per_filing": {
+    "DELL_2": 20,
+    "NVDA_0": 20,
+    "NVDA_1": 20,
+    "NVDA_2": 20,
+    "NVDA_3": 20,
+    "NVDA_4": 20,
+    "TSLA_1": 20,
+    "TSLA_2": 20,
+    "TSLA_3": 20,
+    "TSLA_4": 20,
+    "TSLA_0": 19,
+    "DELL_0": 9,
+    "DELL_1": 8,
+    "DELL_3": 8,
+    "DELL_4": 6
+  },
+  "news_per_company": {
+    "NVDA": 100,
+    "TSLA": 99,
+    "DELL": 51
+  }
+}
