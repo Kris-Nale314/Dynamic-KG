@@ -1,0 +1,80 @@
+{
+  "entity_id": "market_conditions_t0",
+  "entity_type": "MarketConditions",
+  "time_period": 0,
+  "date": "2025-04-25",
+  "interest_rate": 0.0441,
+  "unemployment_rate": 0.0537,
+  "gdp_growth_rate": 0.0277,
+  "inflation_rate": 0.034,
+  "market_stability": 0.85,
+  "industry_conditions": {
+    "Manufacturing": {
+      "growth_rate": 0.012,
+      "risk_score": 0.58,
+      "sentiment": "positive",
+      "trend": "stable"
+    },
+    "Construction": {
+      "growth_rate": 0.0171,
+      "risk_score": 0.3,
+      "sentiment": "neutral",
+      "trend": "stable"
+    },
+    "Retail": {
+      "growth_rate": 0.0291,
+      "risk_score": 0.26,
+      "sentiment": "neutral",
+      "trend": "stable"
+    },
+    "Wholesale": {
+      "growth_rate": 0.0258,
+      "risk_score": 0.47,
+      "sentiment": "positive",
+      "trend": "improving"
+    },
+    "Professional Services": {
+      "growth_rate": 0.0131,
+      "risk_score": 0.75,
+      "sentiment": "neutral",
+      "trend": "stable"
+    },
+    "Healthcare": {
+      "growth_rate": 0.0454,
+      "risk_score": 0.58,
+      "sentiment": "neutral",
+      "trend": "stable"
+    },
+    "Technology": {
+      "growth_rate": 0.0447,
+      "risk_score": 0.22,
+      "sentiment": "positive",
+      "trend": "improving"
+    },
+    "Food Service": {
+      "growth_rate": 0.0131,
+      "risk_score": 0.62,
+      "sentiment": "neutral",
+      "trend": "stable"
+    },
+    "Transportation": {
+      "growth_rate": 0.0206,
+      "risk_score": 0.3,
+      "sentiment": "positive",
+      "trend": "improving"
+    },
+    "Real Estate": {
+      "growth_rate": 0.0109,
+      "risk_score": 0.34,
+      "sentiment": "positive",
+      "trend": "declining"
+    }
+  },
+  "valid_from": "2025-04-17T07:57:24.831572",
+  "valid_to": "2025-08-01T07:57:24.831572",
+  "collection_timestamp": "2025-04-17T08:42:24.831572",
+  "source": "synthetic",
+  "confidence": 0.731,
+  "corroboration_level": 3,
+  "evidence_id": "SYN-1745582244-6502"
+}

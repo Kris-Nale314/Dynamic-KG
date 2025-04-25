@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c1e3e" />
+      <stop offset="100%" stop-color="#16213e" />
+    </linearGradient>
+    
+    <linearGradient id="nodeGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a86ff" />
+      <stop offset="100%" stop-color="#4361ee" />
+    </linearGradient>
+    
+    <linearGradient id="nodeGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff006e" />
+      <stop offset="100%" stop-color="#d62976" />
+    </linearGradient>
+    
+    <linearGradient id="nodeGradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb5607" />
+      <stop offset="100%" stop-color="#ff8600" />
+    </linearGradient>
+    
+    <linearGradient id="nodeGradient4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06d6a0" />
+      <stop offset="100%" stop-color="#0cce97" />
+    </linearGradient>
+    
+    <linearGradient id="nodeGradient5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8338ec" />
+      <stop offset="100%" stop-color="#7209b7" />
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="10" flood-opacity="0.3" />
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGradient)" rx="20" ry="20" />
+  
+  <!-- Grid lines for depth -->
+  <g opacity="0.1">
+    <path d="M50,50 L750,50" stroke="white" stroke-width="1" />
+    <path d="M50,150 L750,150" stroke="white" stroke-width="1" />
+    <path d="M50,250 L750,250" stroke="white" stroke-width="1" />
+    <path d="M50,350 L750,350" stroke="white" stroke-width="1" />
+    <path d="M50,450 L750,450" stroke="white" stroke-width="1" />
+    <path d="M50,550 L750,550" stroke="white" stroke-width="1" />
+    
+    <path d="M50,50 L50,550" stroke="white" stroke-width="1" />
+    <path d="M150,50 L150,550" stroke="white" stroke-width="1" />
+    <path d="M250,50 L250,550" stroke="white" stroke-width="1" />
+    <path d="M350,50 L350,550" stroke="white" stroke-width="1" />
+    <path d="M450,50 L450,550" stroke="white" stroke-width="1" />
+    <path d="M550,50 L550,550" stroke="white" stroke-width="1" />
+    <path d="M650,50 L650,550" stroke="white" stroke-width="1" />
+    <path d="M750,50 L750,550" stroke="white" stroke-width="1" />
+  </g>
+  
+  <!-- Knowledge Graph Connections -->
+  <g filter="url(#glow)">
+    <!-- Connection Lines -->
+    <path d="M400,180 L280,280" stroke="#3a86ff" stroke-width="3" opacity="0.7" />
+    <path d="M400,180 L550,280" stroke="#ff006e" stroke-width="3" opacity="0.7" />
+    <path d="M400,180 L400,320" stroke="#fb5607" stroke-width="3" opacity="0.7" />
+    <path d="M280,280 L180,400" stroke="#06d6a0" stroke-width="3" opacity="0.7" />
+    <path d="M280,280 L330,450" stroke="#8338ec" stroke-width="3" opacity="0.7" />
+    <path d="M550,280 L650,400" stroke="#3a86ff" stroke-width="3" opacity="0.7" />
+    <path d="M400,320 L480,440" stroke="#ff006e" stroke-width="3" opacity="0.7" />
+    <path d="M400,320 L330,450" stroke="#fb5607" stroke-width="3" opacity="0.7" />
+    <path d="M180,400 L330,450" stroke="#06d6a0" stroke-width="3" opacity="0.7" />
+    <path d="M650,400 L480,440" stroke="#8338ec" stroke-width="3" opacity="0.7" />
+    <path d="M330,450 L480,440" stroke="#3a86ff" stroke-width="3" opacity="0.7" />
+  </g>
+  
+  <!-- Knowledge Graph Nodes -->
+  <g filter="url(#shadow)">
+    <!-- Central Node -->
+    <circle cx="400" cy="180" r="40" fill="url(#nodeGradient1)" />
+    <circle cx="400" cy="180" r="10" fill="white" opacity="0.7" />
+    
+    <!-- Surrounding Nodes -->
+    <circle cx="280" cy="280" r="35" fill="url(#nodeGradient2)" />
+    <circle cx="280" cy="280" r="8" fill="white" opacity="0.7" />
+    
+    <circle cx="550" cy="280" r="35" fill="url(#nodeGradient3)" />
+    <circle cx="550" cy="280" r="8" fill="white" opacity="0.7" />
+    
+    <circle cx="400" cy="320" r="30" fill="url(#nodeGradient4)" />
+    <circle cx="400" cy="320" r="7" fill="white" opacity="0.7" />
+    
+    <circle cx="180" cy="400" r="25" fill="url(#nodeGradient5)" />
+    <circle cx="180" cy="400" r="6" fill="white" opacity="0.7" />
+    
+    <circle cx="650" cy="400" r="25" fill="url(#nodeGradient1)" />
+    <circle cx="650" cy="400" r="6" fill="white" opacity="0.7" />
+    
+    <circle cx="330" cy="450" r="30" fill="url(#nodeGradient2)" />
+    <circle cx="330" cy="450" r="7" fill="white" opacity="0.7" />
+    
+    <circle cx="480" cy="440" r="28" fill="url(#nodeGradient3)" />
+    <circle cx="480" cy="440" r="6" fill="white" opacity="0.7" />
+  </g>
+  
+  <!-- Pulse Effects on 4 Nodes -->
+  <!-- Pulse 1: Central Node -->
+  <circle cx="400" cy="180" r="40" fill="none" stroke="#3a86ff" stroke-width="2" opacity="0.5">
+    <animate attributeName="r" values="40;60;40" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.5;0;0.5" dur="3s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Pulse 2: Upper Right Node -->
+  <circle cx="550" cy="280" r="35" fill="none" stroke="#fb5607" stroke-width="2" opacity="0.5">
+    <animate attributeName="r" values="35;55;35" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.5;0;0.5" dur="4s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Pulse 3: Lower Left Node -->
+  <circle cx="180" cy="400" r="25" fill="none" stroke="#8338ec" stroke-width="2" opacity="0.5">
+    <animate attributeName="r" values="25;40;25" dur="3.5s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.5;0;0.5" dur="3.5s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Pulse 4: Lower Right Node -->
+  <circle cx="480" cy="440" r="28" fill="none" stroke="#fb5607" stroke-width="2" opacity="0.5">
+    <animate attributeName="r" values="28;45;28" dur="4.5s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.5;0;0.5" dur="4.5s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Text Elements -->
+  <g filter="url(#shadow)">
+    <text x="400" y="520" font-family="Arial, sans-serif" font-size="60" font-weight="700" fill="white" text-anchor="middle">Dynamic-KG</text>
+    <text x="400" y="550" font-family="Arial, sans-serif" font-size="20" font-weight="300" fill="#f8f9fa" text-anchor="middle" letter-spacing="2">EVOLVING KNOWLEDGE GRAPHS</text>
+  </g>
+</svg>

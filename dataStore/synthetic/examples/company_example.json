@@ -1,0 +1,23 @@
+{
+  "entity_id": "company_parks,_miranda_and_conway",
+  "entity_type": "Company",
+  "company_name": "Parks, Miranda and Conway",
+  "industry": "Healthcare",
+  "industry_id": "industry_healthcare",
+  "employees": 104,
+  "annual_revenue": 18945993,
+  "years_in_business": 7,
+  "business_start_date": "2018-04-27",
+  "business_address": "9206 Chaney Cove\nWest Thomas, OR 59404",
+  "business_city": "Clarkmouth",
+  "business_state": "South Dakota",
+  "business_zip": "89802",
+  "business_type": "LLC",
+  "valid_from": "2025-04-17T07:57:25.134015",
+  "valid_to": null,
+  "collection_timestamp": "2025-04-17T09:04:25.134015",
+  "source": "synthetic",
+  "confidence": 0.74,
+  "corroboration_level": 2,
+  "evidence_id": "SYN-1745582245-7359"
+}

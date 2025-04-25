@@ -1,0 +1,49 @@
+# Core dependencies
+#crewai           # Multi-agent orchestration framework
+streamlit        # Web application framework
+openai           # OpenAI API for LLM access
+langchain        # LLM framework (used by CrewAI)
+langchain-openai # OpenAI integration for LangChain
+plotly           # Interactive visualizations
+altair           # Declarative visualization library
+streamlit-extras # Additional Streamlit components
+neo4j            # Graph database driver
+networkx         # Graph analysis and visualization
+spacy            # Natural language processing library
+#graph-tool      # Graph analysis and visualization (optional, for advanced users)
+PyVis           # Interactive network visualization (optional, for advanced users)
+#PyG             # Graph neural networks (optional, for advanced users)
+
+# Synthetic Data Generation
+faker           # Fake data generator
+sdv             # Synthetic Data Vault
+mimesis         # Another synthetic data generator
+
+# Data processing and analysis
+pandas           # Data manipulation and analysis
+numpy            # Numerical computing
+scikit-learn     # Machine learning utilities
+yfinance         # Yahoo Finance data fetcher (backup/alternative to FMP)
+requests         # HTTP library for API calls
+python-dotenv    # Environment variable management
+beautifulsoup4   # HTML parsing (for SEC filings)
+nltk             # Natural language processing
+tabula-py       # PDF table extraction
+PyMuPDF         # PDF text extraction
+
+# Utilities
+rich             # Rich text and formatting in terminal
+tqdm             # Progress bars
+tenacity         # Retrying library (for API calls)
+joblib           # Parallel processing
+
+# Development tools
+black            # Code formatter
+isort            # Import sorter
+pytest           # Testing framework
+mypy             # Static type checking
+
+
+# Optional: Financial data analysis
+ta               # Technical analysis library (optional)
+statsmodels      # Statistical models and tests (optional)
