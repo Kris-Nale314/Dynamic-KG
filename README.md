@@ -3,18 +3,18 @@
 > *"Because your AI system should be as dynamic as the world it operates in."*
 
 <p align="center">
-  <img src="docs/images/dynamicKgLogo.svg" alt="Dynamic-KG Banner" width="50%"/>
+  <img src="docs/images/dynamicKgLogo.svg" alt="Dynamic-KG Banner" width="30%"/>
 </p>
 
 ## What is Dynamic-KG? 🤔
 
-Dynamic-KG is an experimental framework that creates intelligent digital twins of entities and their environments through evolving knowledge graphs. By combining the structural power of graph databases with the contextual understanding of large language models and the precision of retrieval-augmented generation (RAG), Dynamic-KG transforms how we process, analyze, and draw insights from complex, interconnected data.
+Dynamic-KG is an experimental framework that creates digital twins of entities and their environments through evolving knowledge graphs. By combining the structural power of graph databases with the contextual understanding of large language models and the precision of retrieval-augmented generation (RAG), Dynamic-KG transforms how we process, analyze, and draw insights from complex, interconnected data.
 
-Using financial risk assessment as our initial exemplar, we're demonstrating how this approach can revolutionize decision support systems across industries where context is king and relationships matter more than isolated data points.
+Using financial risk assessment as our initial exemplar, we're demonstrating how this approach could be used in decision support systems where context is essential and relationships matter more than isolated data points.
 
 ## The Problem We're Tackling 🎯
 
-Traditional decision support systems suffer from critical limitations:
+Traditional decision support systems have limitations:
 
 - **Static Analysis** - They take snapshots of data without accounting for evolving contexts
 - **Relational Blindness** - They miss the complex web of relationships between entities
@@ -23,11 +23,11 @@ Traditional decision support systems suffer from critical limitations:
 - **Inconsistent Recommendations** - Different analysts reach different conclusions from the same data
 - **Black-Box Reasoning** - The "why" behind recommendations remains opaque
 
-These limitations lead to missed opportunities, unnecessary risks, and decisions based on incomplete understanding. The financial sector offers a perfect example: risk assessment processes often fail to incorporate the dynamic relationship between applicants and their market context, resulting in both false positives (approving bad risks) and false negatives (rejecting good opportunities).
+These limitations lead to missed opportunities, unnecessary risks, and decisions based on incomplete understanding. 
 
-## Our Approach: Living Digital Twins 🌟
+## Our Approach: Living Digital Twins 👯
 
-Dynamic-KG introduces a fundamentally different paradigm:
+Dynamic-KG explores a fundamentally different paradigm:
 
 1. **Living Digital Twins**: Knowledge graph representations that evolve in real-time as new information becomes available
 
